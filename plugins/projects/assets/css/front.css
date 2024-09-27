@@ -1,0 +1,26 @@
+.pr_pagination-links {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.pr_pagination-links a, .pr_pagination-links span {
+    color: #0943dc;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+
+.pr_pagination-links a:hover {
+    background-color: #f4f4f4;
+    color: #0943dc;
+}
+
+.pr_pagination-links .current {
+    background-color: #0943dc;
+    color: white;
+    border-color: #0943dc;
+}

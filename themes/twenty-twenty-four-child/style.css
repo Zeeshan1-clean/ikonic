@@ -1,0 +1,175 @@
+/**
+ * Theme Name:     Twenty Twenty-Four Child
+ * Author:         the WordPress team
+ * Template:       twentytwentyfour
+ * Text Domain:	   twenty-twenty-four-child
+ * Description:    Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
+ */
+.pr_title {
+	font-size: 2em;
+	margin-bottom: 20px;
+	color: #333;
+	text-align: center;
+}
+
+.pr_project-list {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.pr_project-item {
+	gap:2rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 15px;
+	transition: box-shadow 0.3s;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.pr_project-item:hover {
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pr_project-title {
+	font-size: 1.5em;
+	margin: 0 0 10px;
+}
+
+.pr_project-excerpt {
+	font-size: 1em;
+	color: #666;
+}
+
+.pr_custom-pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.pr_prev,
+.pr_next,
+.pr_page {
+	padding: 10px 15px;
+	margin: 0 5px;
+	border: 1px solid #007bff;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: white;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+
+.pr_prev:hover,
+.pr_next:hover,
+.pr_page:hover {
+	background-color: #0056b3;
+}
+
+.pr_current {
+	padding: 10px 15px;
+	margin: 0 5px;
+	background-color: #e9ecef;
+	color: #333;
+	border-radius: 5px;
+}
+
+.pr_disabled {
+	color: gray;
+	pointer-events: none;
+}
+
+.pro-container{
+	width: 80%;
+	margin: 0 auto;
+}
+.pr_project-image {
+	margin-bottom: 10px;
+}
+
+.pr_project-image img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+.pr_single-container {
+	max-width: 800px; /* Adjust based on your layout */
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.pr_single-project {
+	margin-bottom: 40px;
+}
+
+.pr_single-image img {
+	width: 100%; /* Responsive image */
+	height: auto; /* Maintain aspect ratio */
+	border-radius: 5px; /* Optional rounded corners */
+}
+
+.pr_project-title {
+	font-size: 2.5em; /* Adjust as needed */
+	margin-top: 20px;
+}
+
+.pr_meta {
+	font-size: 0.9em;
+	color: #777; /* Lighter color for meta info */
+	margin-bottom: 20px;
+}
+
+.pr_project-content {
+	font-size: 1.1em;
+	line-height: 1.6;
+	margin-bottom: 30px;
+}
+
+.pr_navigation {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.pr_comments {
+	margin-top: 30px;
+}
+.pr_custom-pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.pr_prev, .pr_next, .pr_page, .pr_current {
+	padding: 10px 15px;
+	margin: 0 5px;
+	border-radius: 4px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #0943dc;
+	transition: background-color 0.3s, color 0.3s;
+	font-size: 1em;
+}
+
+.pr_prev:hover, .pr_next:hover, .pr_page:hover {
+	background-color: #072f99;
+	color: #ffffff;
+}
+
+.pr_current {
+	background-color: #0943dc;
+	color: #ffffff; 
+	pointer-events: none;
+	font-weight: bold;
+}
+
+.pr_disabled {
+	color: #aaa;
+	pointer-events: none;
+	background-color: transparent;
+	cursor: not-allowed;
+}
